@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://media.istockphoto.com/id/2159876740/photo/ramadan.jpg?s=612x612&w=0&k=20&c=WwSe7-I8T4mU20VnY3keJ_0K2RXOSVt4ctm4uLevVx4=") ;
+    background-size: cover;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    border-radius: 6px;
+    color: white;
+    box-shadow: 4px 4px 10px black;
+}
+lable{
+    padding: 4px;
+}
+form h1{
+    text-align: center;
+}
+input{
+    padding: 6px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius:5px ;
+    border: none;
+    
+}
+input:hover{
+    transform: translateY(-10%);
+    transition: ease 0.15s ;
+}
+
+select{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(10, 10, 10);
+}
+#upload-img{
+    display: flex;
+   
+}
+#register{
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px rgb(0, 0, 0) ;
+    color: white;
+}
+
+#register:hover{
+    background: rgb(4, 4, 124);
+}

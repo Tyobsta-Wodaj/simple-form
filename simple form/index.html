@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>  
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <form id="registrationForm">
+        <h1>Simple Form</h1>
+
+        <label>First Name</label>
+        <input type="text" placeholder="First Name" id="fname"  required>
+
+        <label>Last Name</label>
+        <input type="text" placeholder="Last Name" id="lname"   required>
+
+        <label>Email</label>
+        <input type="text" placeholder="Email Address" id="email" required>
+         <label>Password</label>
+        <input type="password" placeholder="password" id="password" required>
+
+        <label>Phone</label>
+        <input type="text" placeholder="+251..." id="phone" pattern="^\+251\d{9}$" required>
+
+        <label>Department</label>
+        <select id="department">
+            <option value="" disabled selected>Select</option>
+            <option>CS</option>
+            <option>IT</option>
+            <option>IS</option>
+            <option>SE</option>
+            <option>Cyber Security</option>
+        </select>
+
+        <label>Upload Image</label>
+        <input type="file" accept="image/*" id="u-image">
+
+        <input type="button" value="Register" id="register">
+    </form>
+
+   <script type="module" src="script.js" defer></script>
+</body>
+</html>
